@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: college-ecommerce
+  description: A small e-commerce site built as part of my college project
+  annotations:
+    github.com/project-slug: Musquan/ecommerce_website 
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Musquan
