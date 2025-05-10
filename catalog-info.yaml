@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: college-ecommerce
-  description: A small e-commerce site built as part of my college project
+  name: word-statistics
+  description: A small word statistics built as part of my college project
   annotations:
-    github.com/project-slug: Musquan/ecommerce_website 
+    github.com/project-slug: Musquan/WordStatistics
 spec:
-  type: service
+  type: tool
   lifecycle: experimental
   owner: guests
