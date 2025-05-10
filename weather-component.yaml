@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: open-meteo-api
+  description: |
+    [Open-Meteo](https://open-meteo.com/) provides free weather API with actual 
+    [GitHub repositories](https://github.com/open-meteo) available.
+  links:
+    - url: https://github.com/open-meteo/open-meteo
+      title: GitHub Repo
+      icon: github
+    - url: https://open-meteo.com/en/docs
+      title: API Docs
+      icon: docs
+spec:
+  type: api
+  lifecycle: production
+  owner: team-weather
+  system: weather-system
