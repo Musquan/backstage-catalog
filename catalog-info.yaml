@@ -1,11 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: word-statistics
-  description: A small word statistics built as part of my college project
+  name: Testing
+  description: Backstage Catalog
   annotations:
-    github.com/project-slug: Musquan/WordStatistics
+    # gitpod.io/host: gitpod.io
+    github.com/project-slug: Musquan/backstage-catalog
+    jira/project-key: 'SCRUM'
+    jira/label: backstage-component:Testing
 spec:
-  type: tool
+  type: application
+  owner: ICS
   lifecycle: experimental
-  owner: guests
